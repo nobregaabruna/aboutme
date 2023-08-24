@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./_styles/style.css">    
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
-        </nav>
+        <div class="dropdown">
+            <button class="dropbtn" href="index.html"> Home </button>
+            <div class="dropdown-content">
+              <a href="about.html">Sobre mim</a>
+              <a href="curriculo.html">Currículo</a>
+            </div>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__texto">

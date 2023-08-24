@@ -15,21 +15,48 @@ body {
     padding: 2% 0% 0% 15%;
 }
 
-.cabecalho__menu {
-    display: flex;
-    gap: 60px;
+.dropbtn {
+    background-color: #3f3f2b;
+    border-radius: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #eedf59;
+    background-color: #3f3f2b;
+    padding: 35%;
+    border: none;
+    border: 50% solid #E3CC00;
 }
 
-.cabecalho__menu__link {
-    font-family: "monsterrat", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #d1bc03;
-    text-decoration: none;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #71715b;
+    min-width: 160px;
+    border-radius: 8%;
+    box-shadow: 0px 8px 16px 0px #3f3f2b;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ece8d1;
+    padding: 12px 16px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #71715b;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: #c7b300; background-color: #3f3f2b;}
 
 .apresentacao {
-    padding: 3% 15%;
+    padding: 2% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +66,7 @@ body {
     width: 600px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 13px;
 }
 
 .apresentacao__texto__titulo {
@@ -64,7 +91,7 @@ body {
     font-family: 'Krona One', sans-serif;    
     display: flex;
     align-items: center;
-    padding: 1%;
+    padding: 2% 5%;
 }
 
 .curriculo__paragrafo {
@@ -73,7 +100,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
-    padding: 5%;
+    padding: 2% 5% 2% 7%;
 }
 
 .curriculo__subtitulo{
@@ -82,7 +109,7 @@ body {
     font-family: 'Krona One', sans-serif;
     display: flex;
     align-items: center;
-    padding: 2%;
+    padding: 2% 5%;
 }
 
 .curriculo__subtitulo__topicos{
@@ -91,7 +118,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
-    padding: 1%;
+    padding: 1% 5% 2.5% 7%;
+}
+
+.curriculo__subtitulo__topicos a{
+    text-decoration: none;
+    color: #eedf59;
 }
 
 .apresentacao__links {
