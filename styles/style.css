@@ -30,7 +30,7 @@ body {
     background-color: var(--cor-terciaria);
     border-radius: 8%;
     font-family: var(--fonte-secundaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
@@ -86,14 +86,14 @@ body {
 }
 
 .apresentacao__texto {
-    width: 800px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
 
 .apresentacao__texto__titulo {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -102,15 +102,14 @@ body {
 }
 
 .apresentacao__texto__paragrafo {
-    font-size: 19px;
+    font-size: 1.188rem;
     color: #ece8d1;
     font-family: var(--fonte-secundaria);
 }
 
 .curriculo__titulo{
-    font-size: 24px;
+    font-size: 1.875rem;
     color: #ece8d1;
-    font-size: 30px;
     font-family: var(--fonte-primaria);    
     display: flex;
     align-items: center;
@@ -118,7 +117,7 @@ body {
 }
 
 .curriculo__paragrafo {
-    font-size: 19px;
+    font-size: 1.188rem;
     color: #ece8d1;
     font-family: var(--fonte-secundaria);
     display: flex;
@@ -128,7 +127,7 @@ body {
 }
 
 .curriculo__subtitulo{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #ece8d1;
     font-family: var(--fonte-primaria);
     display: flex;
@@ -137,7 +136,7 @@ body {
 }
 
 .curriculo__subtitulo__topicos{
-    font-size: 19px;
+    font-size: 1.188rem;
     color: #ece8d1;
     font-family: var(--fonte-secundaria);
     display: flex;
@@ -161,7 +160,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .apresentacao__links__botao {
@@ -172,7 +171,7 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 15px 0;
     text-decoration: none;
@@ -185,9 +184,8 @@ body {
     border: 2px solid var(--cor-terciaria);
 }   
 
-.imagemgrande {
-    height: 480px;
-    width: 480px;
+.apresentacao__imagem {
+    width: 40%;
     border-radius: 10px;
 }
 
@@ -197,6 +195,6 @@ body {
     background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
 }
