@@ -168,7 +168,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);
-    width: 300px;
+    width: 40%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.25rem;
