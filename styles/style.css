@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #FFFADC;
-    --cor-secundaria: #E3CC00;
-    --cor-terciaria: #3F3F2B;
-    --cor-hover-secundaria: #A09000;
-    --cor-hover-terciaria: #797951;
+    --cor-primaria: #213555;
+    --cor-secundaria: #977b0c;
+    --cor-terciaria: #ffffff;
+    --cor-hover-secundaria: #8092b1;
+    --cor-hover-terciaria: #8fa3c5;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -16,7 +16,7 @@
     padding: 0;
 }
 
-body {
+.body {
     box-sizing: border-box;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
@@ -46,10 +46,10 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #c7b300;
+    background-color: var(--cor-hover-secundaria);
     min-width: 160px;
     border-radius: 8%;
-    box-shadow: 0px 8px 16px 0px var(--cor-terciaria);
+    box-shadow: 0px 8px 16px 0px var(--cor-hover-secundaria);
     z-index: 1;
 
 }
@@ -61,12 +61,12 @@ body {
     font-family: var(--fonte-secundaria);
     text-decoration: none;
     display: block;
-    border: 5px solid #c7b300;
+    border: 5px solid var(--cor-hover-secundaria);
     border-radius: 10px; 
 }
 
 .dropdown-content a:hover {
-    background-color: var(--cor-hover-secundaria);
+    background-color: var(--cor-hover-terciaria);
     color: var(--cor-primaria); 
     font-weight: 600;
 }
@@ -103,13 +103,13 @@ body {
 
 .apresentacao__texto__paragrafo {
     font-size: 1.188rem;
-    color: #ece8d1;
+    color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
 }
 
 .curriculo__titulo{
     font-size: 1.875rem;
-    color: #ece8d1;
+    color: var(--cor-primaria);
     font-family: var(--fonte-primaria);    
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@ body {
 
 .curriculo__paragrafo {
     font-size: 1.188rem;
-    color: #ece8d1;
+    color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ body {
 
 .curriculo__subtitulo{
     font-size: 1.5rem;
-    color: #ece8d1;
+    color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
     display: flex;
     align-items: center;
@@ -137,7 +137,7 @@ body {
 
 .curriculo__subtitulo__topicos{
     font-size: 1.188rem;
-    color: #ece8d1;
+    color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     display: flex;
     align-items: center;
@@ -146,7 +146,7 @@ body {
 
 .curriculo__subtitulo__topicos a{
     text-decoration: none;
-    color: #eedf59;
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__links {
