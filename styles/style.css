@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria: #213555;
-    --cor-secundaria: #977b0c;
+    --cor-secundaria: #a8a505;
     --cor-terciaria: #ffffff;
     --cor-hover-secundaria: #8092b1;
     --cor-hover-terciaria: #8fa3c5;
@@ -83,13 +83,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .apresentacao__texto {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 40px;
 }
 
 .apresentacao__texto__titulo {
