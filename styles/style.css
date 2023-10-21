@@ -204,9 +204,12 @@
 
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 40px;
+        padding: 0% 0% 0% 45%;
     }
 
+    .dropbtn {
+        justify-content: center;
+    }
 
     .apresentacao{
         flex-direction: column-reverse;
