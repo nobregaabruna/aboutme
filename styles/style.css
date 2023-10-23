@@ -203,15 +203,19 @@
 
 
 @media (max-width: 1200px) {
+	.dropbtn{
+		padding: 5% 17% 5% 0%;
+    }
+    .dropdown{
+		display: flex;
+		justify-content: center;
+    }
+
     .apresentacao{
-        flex-direction: column-reverse;
+		flex-direction: column-reverse;
     }
-    .dropbtn {
-        justify-content: center;
-    }
-    .cabecalho{
-        padding: 4% 0% 2% 45%;
-    }
+
+
 
 
 
