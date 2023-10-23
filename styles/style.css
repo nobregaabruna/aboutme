@@ -24,6 +24,8 @@
 
 .cabecalho {
     padding: 2% 0% 0% 15%;
+    border: #213555;
+    border-radius: 5%;
 }
 
 .dropdown {
@@ -209,8 +211,8 @@
     .dropbtn {
         justify-content: center;
     }
-        .cabecalho{
-        padding: 20% 0% 10% 45%;
+    .cabecalho{
+        padding: 4% 0% 2% 45%;
     }
 
 
