@@ -214,11 +214,10 @@
     
     .apresentacao{
 		flex-direction: column-reverse;
+        padding: 5%;
     }
-}
 
-
-
-
-
+    .apresentacao__texto{
+        width: auto;
+    }
 }
