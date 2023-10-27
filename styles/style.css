@@ -203,16 +203,19 @@
 
 
 @media (max-width: 1200px) {
-	.apresentacao{
-		flex-direction: column-reverse;
-    }
 	.dropbtn{
 		padding: 5% 17% 5% 0%;
     }
+
     .dropdown{
 		display: flex;
 		justify-content: center;
     }
+    
+    .apresentacao{
+		flex-direction: column-reverse;
+    }
+}
 
 
 
