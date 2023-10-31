@@ -115,7 +115,7 @@
     font-family: var(--fonte-primaria);    
     display: flex;
     align-items: center;
-    padding: 2% 5%;
+    padding: 2% 15%;
 }
 
 .curriculo__paragrafo {
@@ -124,7 +124,7 @@
     font-family: var(--fonte-secundaria);
     display: flex;
     align-items: center;
-    padding: 0% 5% 1% 7%;
+    padding: 0% 15% 1% 15%;
     text-align: justify;
 }
 
@@ -134,16 +134,14 @@
     font-family: var(--fonte-primaria);
     display: flex;
     align-items: center;
-    padding: 2% 5%;
+    padding: 2% 15%;
 }
 
 .curriculo__subtitulo__topicos{
     font-size: 1.188rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
-    display: flex;
-    align-items: center;
-    padding: 1% 5% 2.5% 7%;
+    padding: 1% 15% 2.5% 15%;
 }
 
 .curriculo__subtitulo__topicos a{
